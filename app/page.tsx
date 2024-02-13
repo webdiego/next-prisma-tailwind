@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'My Page Title',
 }
 
-export default function Page() {
+export default async function Page() {
   return (
     <main className={`flex min-h-screen flex-col items-center justify-center`}>
       <Hero />
